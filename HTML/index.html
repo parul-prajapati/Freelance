@@ -61,7 +61,7 @@
                 </div>
                 <div style="border-left:1px solid lightgray;">
                     <div class="text" style="color:#A3A3A3">Travel Date
-                        <input type="date" id="date" style="border:none;float:right;" onfocus="myFunc3()"
+                        <input type="date" id="date" style="border:none;float:right;width:18px;color:#A3A3A3"
                             onchange="myFunction3(event)" />
                     </div>
                     <div id="travelDate"></div>
@@ -225,9 +225,6 @@
     }
     function myFunction3(e) {
         document.getElementById("travelDate").innerHTML = e.target.value;
-    }
-    function myFunc3() {
-        document.getElementById("date").style.border = "none";
     }
 </script>
 
